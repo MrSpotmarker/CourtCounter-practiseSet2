@@ -1,0 +1,56 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">#1B5E20</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">#43A047</item>
+    </style>
+    
+    <style name="AppTheme.Actiobar" parent="AppTheme">
+        <item name="textColor">#FFFFFF</item>        
+    </style>
+
+    <!-- styles below used in activity.main.xml -->
+    <!-- regular buttons -->
+    <style name="ButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <!-- reset button -->
+    <style name="ResetButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">32dp</item>
+    </style>
+
+    <!-- Headline Team names ... possible idea for future update multiscreen app -
+    replace with values from input - 3letter shortform for Teams would be a nice idea -->
+    <style name="Headline">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textColor">#616161</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <!-- Score/Foul Values -->
+    <style name="ScoreTextview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">24dp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">56sp</item>
+    </style>
+</resources>

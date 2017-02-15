@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fußball Statistik</string>
+    <string name="foul">Foul</string>
+    <string name="goal">Tor</string>
+    <string name="reset">Zurücksetzen</string>
+</resources>

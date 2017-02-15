@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Soccer Stats</string>
+    <string name="teamA" translatable="false">Team A</string>
+    <string name="teamB" translatable="false">Team B</string>
+    <string name="goal">Goal</string>
+    <string name="foul">Foul</string>
+    <string name="reset">Reset</string>
+</resources>
