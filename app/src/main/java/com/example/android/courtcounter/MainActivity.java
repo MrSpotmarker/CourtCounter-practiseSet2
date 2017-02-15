@@ -2,12 +2,9 @@ package com.example.android.courtcounter;
 
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
-
-import static android.media.CamcorderProfile.get;
 
 public class MainActivity extends AppCompatActivity {
     int scoreTeamA = 0;

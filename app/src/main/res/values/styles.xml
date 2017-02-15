@@ -6,6 +6,7 @@
         <item name="colorPrimaryDark">#388E3C</item>
         <!-- Background color of buttons in the app -->
         <item name="colorButtonNormal">#FFE082</item>
+        <item name="colorAccent">#FFC107</item>
     </style>
 
     <!-- styles below used in activity.main.xml -->
@@ -20,11 +21,24 @@
 
     <!-- reset button -->
     <style name="ResetButtonStyle">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_alignParentBottom">true</item>
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:layout_marginBottom">32dp</item>
+        <item name="android:background">#4CAF50</item>
+    </style>
+
+    <!-- background Image -->
+    <style name="BackgroudImageStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:cropToPadding">false</item>
+        <item name="android:alpha">0.05</item>
+        <item name="android:padding">24dp</item>
+    <item name="android:adjustViewBounds">true</item>
     </style>
 
     <!-- Headline Team names ... possible idea for future update multiscreen app -
