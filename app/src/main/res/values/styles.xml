@@ -2,13 +2,10 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light">
         <!-- Primary theme color of the app (sets background color of app bar) -->
-        <item name="colorPrimary">#1B5E20</item>
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="colorPrimaryDark">#388E3C</item>
         <!-- Background color of buttons in the app -->
-        <item name="colorButtonNormal">#43A047</item>
-    </style>
-    
-    <style name="AppTheme.Actiobar" parent="AppTheme">
-        <item name="textColor">#FFFFFF</item>        
+        <item name="colorButtonNormal">#FFE082</item>
     </style>
 
     <!-- styles below used in activity.main.xml -->
